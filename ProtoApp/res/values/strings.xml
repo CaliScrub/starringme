@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProtoApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">ProjectSRK</string>
+
+    <!-- BEGIN Gracenote values -->
+    <string name="gracenote_client_id_video">12493056</string>
+    <string name="gracenote_client_tag_video">A40BED1330A85FAA80357FA47F633456</string>
+    <string name="gracenote_client_id_music">12493056</string>
+    <string name="gracenote_client_tag_music">A40BED1330A85FAA80357FA47F633456</string>
+    <string name="gracenote_license_string">-- BEGIN LICENSE v1.0 E6402625 --\nlicensee: Gracenote, Inc.\nname: \nnotes: Lic Gen 2.1\nstart_date: 0000-00-00\nclient_id: 12493056\nvideoid_explore: enabled\nacr: enabled\nepg: enabled\n-- SIGNATURE E6402625 --\nlAADAgAfAQnFvWTiop5jc0zlu7bU8u5RGYNulTyJ+X7qdoP5sAAfASnV5iEApPA+3reNwnar/QJA5op4tgwUjQBbNPC3Jw==\n-- END LICENSE E6402625 --</string>
+
+    <string-array name="gracenote_acr_optimization_mode">
+        <item>Optimize for default</item>
+        <item>Optimize for accuracy</item>
+        <item>Optimize for speed</item>
+        <item>Optimize for adaptive</item>
+    </string-array>
+
+    <!-- usable data providers: mock, appengine -->
+    <string name="data_provider">appengine</string>
+
+    <!-- END Gracenote values -->
+
+
+    <!-- BEGIN Google Shopping values -->
+
+    <string name="androidKey">AIzaSyAvij2jaug5jgPKZeaMtj9TbDDDrCakPMU</string>
+    <string name="googleShoppingSearchUrl">https://www.googleapis.com/shopping/search/v1/public/products"</string>
+
+    <!-- END Google Shopping values -->
+
+    <string name="title_menuitem_list">MenuItems</string>
+    <string name="title_menuitem_detail">MenuItem Detail</string>
+
+</resources>

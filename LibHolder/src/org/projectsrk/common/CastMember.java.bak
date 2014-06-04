@@ -1,0 +1,34 @@
+package org.projectsrk.common;
+
+public class CastMember {
+	public CastMember(int _castmemberID, int _seriesID, String _characterName,
+			String _actorName, String _description) {
+		super();
+		this._castmemberID = _castmemberID;
+		this._seriesID = _seriesID;
+		this._characterName = _characterName;
+		this._actorName = _actorName;
+		this._description = _description;
+	}
+	private int _castmemberID; // primary key
+	private int _seriesID; // foreign key to series
+	private String _characterName;
+	private String _actorName;
+	private String _description;
+	public int get_castmemberID() {
+		return _castmemberID;
+	}
+	public int get_seriesID() {
+		return _seriesID;
+	}
+	public String get_characterName() {
+		return _characterName;
+	}
+	public String get_actorName() {
+		return _actorName;
+	}
+	public String get_description() {
+		return _description;
+	}
+
+}

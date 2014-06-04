@@ -1,0 +1,35 @@
+package org.projectsrk.common;
+
+public class Scene {
+	public Scene(int _sceneID, int _episodeID, int _sceneNumber,
+			int _sceneLength, String _sceneDescription) {
+		super();
+		this._sceneID = _sceneID;
+		this._episodeID = _episodeID;
+		this._sceneNumber = _sceneNumber;
+		this._sceneLength = _sceneLength;
+		this._sceneDescription = _sceneDescription;
+	}
+	private int _sceneID; // primary key
+	private int _episodeID; // foreign key to episode primary key
+	private int _sceneNumber; // scene # relative to episode
+	private int _sceneLength; // length of scene in seconds... need to make this better
+	private String _sceneDescription;
+	
+	public int get_sceneID() {
+		return _sceneID;
+	}
+	public int get_episodeID() {
+		return _episodeID;
+	}
+	public int get_sceneNumber() {
+		return _sceneNumber;
+	}
+	public int get_sceneLength() {
+		return _sceneLength;
+	}
+	public String get_sceneDescription() {
+		return _sceneDescription;
+	}	
+	
+}

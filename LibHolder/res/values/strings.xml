@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">LibHolder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+    <!--  BEGIN Google Shopping values -->
+    
+    <string name="androidKey">AIzaSyAvij2jaug5jgPKZeaMtj9TbDDDrCakPMU</string>
+	<string name="googleShoppingSearchUrl">https://www.googleapis.com/shopping/search/v1/public/products"</string>
+    
+    <!--  END Google Shopping values -->
+    
+</resources>
